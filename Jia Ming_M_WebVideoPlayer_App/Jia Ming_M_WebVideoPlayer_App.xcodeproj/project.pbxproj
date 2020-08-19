@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709FB34824EDA32700621ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB34724EDA32700621ACA /* AppDelegate.swift */; };
+		709FB34A24EDA32700621ACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB34924EDA32700621ACA /* SceneDelegate.swift */; };
+		709FB34C24EDA32700621ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB34B24EDA32700621ACA /* ViewController.swift */; };
+		709FB34F24EDA32700621ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709FB34D24EDA32700621ACA /* Main.storyboard */; };
+		709FB35124EDA32800621ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709FB35024EDA32800621ACA /* Assets.xcassets */; };
+		709FB35424EDA32800621ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709FB35224EDA32800621ACA /* LaunchScreen.storyboard */; };
+		709FB35F24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB35E24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppTests.swift */; };
+		709FB36A24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB36924EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709FB35B24EDA32800621ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709FB33C24EDA32700621ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709FB34324EDA32700621ACA;
+			remoteInfo = "Jia Ming_M_WebVideoPlayer_App";
+		};
+		709FB36624EDA32800621ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709FB33C24EDA32700621ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709FB34324EDA32700621ACA;
+			remoteInfo = "Jia Ming_M_WebVideoPlayer_App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709FB34424EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jia Ming_M_WebVideoPlayer_App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709FB34724EDA32700621ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		709FB34924EDA32700621ACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		709FB34B24EDA32700621ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		709FB34E24EDA32700621ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		709FB35024EDA32800621ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		709FB35324EDA32800621ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		709FB35524EDA32800621ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709FB35A24EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jia Ming_M_WebVideoPlayer_AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709FB35E24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jia_Ming_M_WebVideoPlayer_AppTests.swift; sourceTree = "<group>"; };
+		709FB36024EDA32800621ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709FB36524EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jia Ming_M_WebVideoPlayer_AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709FB36924EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jia_Ming_M_WebVideoPlayer_AppUITests.swift; sourceTree = "<group>"; };
+		709FB36B24EDA32800621ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709FB34124EDA32700621ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB35724EDA32800621ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB36224EDA32800621ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709FB33B24EDA32700621ACA = {
+			isa = PBXGroup;
+			children = (
+				709FB34624EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App */,
+				709FB35D24EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests */,
+				709FB36824EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests */,
+				709FB34524EDA32700621ACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709FB34524EDA32700621ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709FB34424EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App.app */,
+				709FB35A24EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests.xctest */,
+				709FB36524EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709FB34624EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App */ = {
+			isa = PBXGroup;
+			children = (
+				709FB34724EDA32700621ACA /* AppDelegate.swift */,
+				709FB34924EDA32700621ACA /* SceneDelegate.swift */,
+				709FB34B24EDA32700621ACA /* ViewController.swift */,
+				709FB34D24EDA32700621ACA /* Main.storyboard */,
+				709FB35024EDA32800621ACA /* Assets.xcassets */,
+				709FB35224EDA32800621ACA /* LaunchScreen.storyboard */,
+				709FB35524EDA32800621ACA /* Info.plist */,
+			);
+			path = "Jia Ming_M_WebVideoPlayer_App";
+			sourceTree = "<group>";
+		};
+		709FB35D24EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				709FB35E24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppTests.swift */,
+				709FB36024EDA32800621ACA /* Info.plist */,
+			);
+			path = "Jia Ming_M_WebVideoPlayer_AppTests";
+			sourceTree = "<group>";
+		};
+		709FB36824EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				709FB36924EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppUITests.swift */,
+				709FB36B24EDA32800621ACA /* Info.plist */,
+			);
+			path = "Jia Ming_M_WebVideoPlayer_AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709FB34324EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709FB36E24EDA32800621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_WebVideoPlayer_App" */;
+			buildPhases = (
+				709FB34024EDA32700621ACA /* Sources */,
+				709FB34124EDA32700621ACA /* Frameworks */,
+				709FB34224EDA32700621ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jia Ming_M_WebVideoPlayer_App";
+			productName = "Jia Ming_M_WebVideoPlayer_App";
+			productReference = 709FB34424EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		709FB35924EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709FB37124EDA32800621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_WebVideoPlayer_AppTests" */;
+			buildPhases = (
+				709FB35624EDA32800621ACA /* Sources */,
+				709FB35724EDA32800621ACA /* Frameworks */,
+				709FB35824EDA32800621ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709FB35C24EDA32800621ACA /* PBXTargetDependency */,
+			);
+			name = "Jia Ming_M_WebVideoPlayer_AppTests";
+			productName = "Jia Ming_M_WebVideoPlayer_AppTests";
+			productReference = 709FB35A24EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		709FB36424EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709FB37424EDA32800621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_WebVideoPlayer_AppUITests" */;
+			buildPhases = (
+				709FB36124EDA32800621ACA /* Sources */,
+				709FB36224EDA32800621ACA /* Frameworks */,
+				709FB36324EDA32800621ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709FB36724EDA32800621ACA /* PBXTargetDependency */,
+			);
+			name = "Jia Ming_M_WebVideoPlayer_AppUITests";
+			productName = "Jia Ming_M_WebVideoPlayer_AppUITests";
+			productReference = 709FB36524EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709FB33C24EDA32700621ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jia Ming Mei";
+				TargetAttributes = {
+					709FB34324EDA32700621ACA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					709FB35924EDA32800621ACA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 709FB34324EDA32700621ACA;
+					};
+					709FB36424EDA32800621ACA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 709FB34324EDA32700621ACA;
+					};
+				};
+			};
+			buildConfigurationList = 709FB33F24EDA32700621ACA /* Build configuration list for PBXProject "Jia Ming_M_WebVideoPlayer_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709FB33B24EDA32700621ACA;
+			productRefGroup = 709FB34524EDA32700621ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709FB34324EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App */,
+				709FB35924EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppTests */,
+				709FB36424EDA32800621ACA /* Jia Ming_M_WebVideoPlayer_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709FB34224EDA32700621ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB35424EDA32800621ACA /* LaunchScreen.storyboard in Resources */,
+				709FB35124EDA32800621ACA /* Assets.xcassets in Resources */,
+				709FB34F24EDA32700621ACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB35824EDA32800621ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB36324EDA32800621ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709FB34024EDA32700621ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB34C24EDA32700621ACA /* ViewController.swift in Sources */,
+				709FB34824EDA32700621ACA /* AppDelegate.swift in Sources */,
+				709FB34A24EDA32700621ACA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB35624EDA32800621ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB35F24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB36124EDA32800621ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB36A24EDA32800621ACA /* Jia_Ming_M_WebVideoPlayer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709FB35C24EDA32800621ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709FB34324EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App */;
+			targetProxy = 709FB35B24EDA32800621ACA /* PBXContainerItemProxy */;
+		};
+		709FB36724EDA32800621ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709FB34324EDA32700621ACA /* Jia Ming_M_WebVideoPlayer_App */;
+			targetProxy = 709FB36624EDA32800621ACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		709FB34D24EDA32700621ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709FB34E24EDA32700621ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		709FB35224EDA32800621ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709FB35324EDA32800621ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709FB36C24EDA32800621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		709FB36D24EDA32800621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709FB36F24EDA32800621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_WebVideoPlayer_App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-WebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		709FB37024EDA32800621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_WebVideoPlayer_App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-WebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		709FB37224EDA32800621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_WebVideoPlayer_AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-WebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jia Ming_M_WebVideoPlayer_App.app/Jia Ming_M_WebVideoPlayer_App";
+			};
+			name = Debug;
+		};
+		709FB37324EDA32800621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_WebVideoPlayer_AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-WebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jia Ming_M_WebVideoPlayer_App.app/Jia Ming_M_WebVideoPlayer_App";
+			};
+			name = Release;
+		};
+		709FB37524EDA32800621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_WebVideoPlayer_AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-WebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jia Ming_M_WebVideoPlayer_App";
+			};
+			name = Debug;
+		};
+		709FB37624EDA32800621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_WebVideoPlayer_AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-WebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jia Ming_M_WebVideoPlayer_App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709FB33F24EDA32700621ACA /* Build configuration list for PBXProject "Jia Ming_M_WebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB36C24EDA32800621ACA /* Debug */,
+				709FB36D24EDA32800621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709FB36E24EDA32800621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_WebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB36F24EDA32800621ACA /* Debug */,
+				709FB37024EDA32800621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709FB37124EDA32800621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_WebVideoPlayer_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB37224EDA32800621ACA /* Debug */,
+				709FB37324EDA32800621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709FB37424EDA32800621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_WebVideoPlayer_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB37524EDA32800621ACA /* Debug */,
+				709FB37624EDA32800621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709FB33C24EDA32700621ACA /* Project object */;
+}
